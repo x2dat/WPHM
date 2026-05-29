@@ -1,0 +1,11 @@
+# Python files
+__pycache__/
+*.pyc
+
+# Data logs
+*.csv
+*.log
+
+# IDE files
+.vscode/
+.idea/
