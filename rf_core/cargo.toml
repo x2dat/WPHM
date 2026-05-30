@@ -1,0 +1,21 @@
+[package]
+name = "rf_core"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "rf_core"
+crate-type = ["cdylib"]   # compiled as a shared library Python can import
+
+[dependencies]
+pyo3     = { version = "0.21", features = ["extension-module"] }
+ndarray  = "0.15"
+linfa-interpolate = { version = "0.7", optional = true }
+
+[features]
+default = []
+
+[profile.release]
+opt-level = 3        # maximum optimisation
+lto = true           # link-time optimisation
+codegen-units = 1    # slower compile, faster runtime
