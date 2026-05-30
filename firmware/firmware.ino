@@ -34,6 +34,7 @@ void passive_sniffer_cb(void* buf, wifi_promiscuous_pkt_type_t type) {
     }
 
     // Output clean CSV data over Serial to the laptop
+    if (signalType == "UNKNOWN") return;
     Serial.print(signalType);
     Serial.print(",");
     
