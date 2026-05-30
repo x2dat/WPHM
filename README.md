@@ -58,17 +58,18 @@ The UI is built with a custom dark-industrial theme and runs at 300ms intervals.
    * Select your target **ESP32-S3** board profile.
    * Flash the compilation code directly onto your microcontroller.
 
-2. **Execution Execution:**
-   * Look up your microcontroller's assigned serial port address and substitute it inside the `SERIAL_PORT` variable configuration line inside `app/collector.py`.
-   * Start your monitoring capture:
+2. **Python Environment Setup:**
+   * Install dependencies via terminal execution:
      ```bash
-     python app/collector.py
+     pip install -r requirements.txt
      ```
 
 3. **Execution Execution:**
    * Look up your microcontroller's assigned serial port address and substitute it inside the `SERIAL_PORT` variable configuration line inside `app/collector.py`.
    * Start your monitoring capture:
      ```bash
+     python app/collector.py
+     ```
 
 
 <div align="center">study space with the rig running to gather signal density measurements.
