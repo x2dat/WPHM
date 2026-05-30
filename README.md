@@ -49,6 +49,7 @@ The UI is built with a custom dark-industrial theme and runs at 300ms intervals.
 | **Device Registry** | Real-time leaderboard of the most active MAC addresses and their average RSSI. |
 | **Event Log & Stats** | Live feed of system triggers (e.g., strong signals, whitelisted devices) and metrics. |
 
+![image](https://github.com/x2dat/WPHM/blob/406cb407627ccb4ab3013e5aaf6a1db497a92525/SIMscreenshoot.png)
 ---
 
 ## Installation & Setup
