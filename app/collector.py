@@ -50,7 +50,7 @@ except ImportError:
 
 
 # ══════════════════════════════════════════════
-#  CONFIGURATION — edit these to suit your setup
+#  CONFIGURATION 
 # ══════════════════════════════════════════════
 
 BAUD_RATE          = 115200
@@ -79,7 +79,7 @@ DEFAULT_BLACKLIST = [
 
 
 # ══════════════════════════════════════════════
-#  COLOUR PALETTE  (dark industrial theme)
+#  COLOUR PALETTE 
 # ══════════════════════════════════════════════
 
 DARK_BG      = "#0A0C0F"
