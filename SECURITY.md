@@ -2,8 +2,6 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
 
 | Version | Supported          |
 | ------- | ------------------ |
@@ -11,8 +9,7 @@ currently being supported with security updates.
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
-
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+I take the security of your local data seriously. If you find a bug that could lead to accidental file deletion or data corruption, please follow these steps:
+Do not open a public issue. Please reach out via my contact information on my GitHub profile.
+Describe the bug. Explain exactly what happened and how to reproduce it (e.g., specific file names or characters that caused a crash).
+Wait for a fix. I typically respond to security reports within 48–72 hours and will let you know once a patch is ready to be merged.
